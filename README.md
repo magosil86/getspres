@@ -38,13 +38,32 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+
+### References
+
+### Acknowledgements
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/magosil86/getspres/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Getting help
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
+### Authors
+
+<a >Lerato E. Magosi</a> <small class="roles"> </small> <a  href="https://orcid.org/0000-0003-4757-117X" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a>, <a >Jemma C. Hopewell</a> <small class="roles"> </small> <a href="https://orcid.org/0000-0003-4757-117X" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a> and 
+<a >Martin Farrall</a> <small class="roles"> </small> <a href="https://orcid.org/0000-0003-4757-117X" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a>
+
+
+### Maintainer
+
+Lerato E. Magosi lmagosi@well.ox.ac.uk or magosil86@gmail.com
+
+### Citation
+
+### Code of conduct
+
 
 ### License
+
+[MIT](https://opensource.org/licenses/mit-license.php) + file [License]().
