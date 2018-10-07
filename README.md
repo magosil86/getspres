@@ -51,14 +51,11 @@ library(getspres)  # for calculating SPRE statistics
 For an overview of available functions in **_getspres_**, type `?getspres` and `?plotspres` at the R prompt.
 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Getting help
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+To suggest a new feature, report a bug or ask for help, please provide a reproducible example at: https://github.com/magosil86/getspres/issues. Also see [reprex](https://reprex.tidyverse.org/) to learn more about generating reproducible examples.
 
-
-### Citation
 
 ### References
 
@@ -75,8 +72,8 @@ PLoS Genet 13(5): e1006755. https://doi.org/10.1371/journal.pgen.1006755.
 
 ### Authors
 
-<a >Lerato E. Magosi</a> <small class="roles"> </small> <a  href="https://orcid.org/0000-0003-4757-117X" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a>, <a >Jemma C. Hopewell</a> <small class="roles"> </small> <a href="https://orcid.org/0000-0003-4757-117X" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a> and 
-<a >Martin Farrall</a> <small class="roles"> </small> <a href="https://orcid.org/0000-0003-4757-117X" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a>
+<a >Lerato E. Magosi</a> <small class="roles"> </small> <a  href="http://orcid.org/0000-0002-3388-9892" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a>, <a >Jemma C. Hopewell</a> <small class="roles"> </small> <a href="" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a> and 
+<a >Martin Farrall</a> <small class="roles"> </small> <a href="http://orcid.org/0000-0003-4564-2165" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a>
 
 
 ### Maintainer
@@ -85,6 +82,10 @@ Lerato E. Magosi lmagosi@well.ox.ac.uk or magosil86@gmail.com
 
 ### Citation
 
+Lerato E Magosi, Jemma C Hopewell and Martin Farrall (2018). getspres:
+SPRE Statistics for Exploring Heterogeneity in Meta-Analysis. R
+package version 0.1.0.9000. https://magosil86.github.io/getspres/
+  
 ### Code of conduct
 
 Contributions are welcome. Please observe the [Contributor Code of Conduct]() when participating in this project.
