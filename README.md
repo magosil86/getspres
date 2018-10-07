@@ -72,7 +72,7 @@ PLoS Genet 13(5): e1006755. https://doi.org/10.1371/journal.pgen.1006755.
 
 ### Authors
 
-<a >Lerato E. Magosi</a> <small class="roles"> </small> <a  href="http://orcid.org/0000-0002-3388-9892" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a>, <a >Jemma C. Hopewell</a> <small class="roles"> </small> <a href="" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a> and 
+<a >Lerato E. Magosi</a> <small class="roles"> </small> <a  href="http://orcid.org/0000-0002-3388-9892" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a>, <a >Jemma C. Hopewell</a> <small class="roles"> </small> and 
 <a >Martin Farrall</a> <small class="roles"> </small> <a href="http://orcid.org/0000-0003-4564-2165" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a>
 
 
@@ -93,22 +93,3 @@ Contributions are welcome. Please observe the [Contributor Code of Conduct]() wh
 ### License
 
 [MIT](https://opensource.org/licenses/mit-license.php) + file [License]().
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
