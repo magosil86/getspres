@@ -42,7 +42,7 @@ library(getspres)  # for calculating SPRE statistics
 
 ### Usage
 
-Load the getspres package in your current R session, and try some examples in the [example workflow](https://github.com/magosil86/getmstatistic/blob/master/vignettes/getmstatistic-tutorial.md)
+Load the getspres package in your current R session, and try some examples in the [example workflow]()
 
 ```{r}
 # Load libraries
