@@ -1,0 +1,17 @@
+citHeader("To cite getspres in publications use:")
+
+citEntry(entry = "Manual",
+  title        = "SPRE Statistics for Exploring Heterogeneity in Meta-Analysis {getspres}",
+  author       = personList(as.person("Lerato E. Magosi"),
+                   as.person("Jemma C. Hopewell"),
+                   as.person("Martin Farrall")),
+  year         = "2018",
+  note         = "R package version 0.1.0",
+  url          = "https://magosil86.github.io/getspres/",
+
+  textVersion  =
+  paste("Lerato E. Magosi, Jemma C. Hopewell, Martin Farrall (2018).",
+        "SPRE Statistics for Exploring Heterogeneity in Meta-Analysis.",
+        "R package version 0.1.0",
+        "URL https://magosil86.github.io/getspres/")
+) 
