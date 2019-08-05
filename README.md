@@ -11,7 +11,7 @@
 
 
 One useful way of identifying overly influential outlier studies in meta-analyses and 
-their direction of effect is through the calculation of SPRE (standardised predicted random-effects) 
+their direction of effect is through the calculation of _SPRE_ (standardised predicted random-effects) 
 statistics. _SPRE_ statistics are precision-weighted residuals that capture the direction
 and extent to which genetic effects of different studies in a meta-analysis deviate from
 the average genetic effect at a variant of interest. Positive outliers have the potential 
@@ -25,6 +25,7 @@ that show corresponding _SPRE_ statistic values for participating studies in met
 The advantage of using the **_getspres_** package is that it provides a quantitative and 
 visual view of heterogeneity at individual genetic variants in meta-analyses.
 
+# [getspres]() <img src="image-spres-forestplots.png" align="center" />
 
 ### Installation
 
@@ -51,7 +52,7 @@ library(getspres)  # for calculating SPRE statistics
 
 ### Usage
 
-Load the getspres package in your current R session, and try some examples in the [example workflow]()
+Load the getspres package in your current R session, and try some examples in the [example workflow](https://github.com/magosil86/getspres/blob/master/vignettes/getspres-tutorial.Rmd)
 
 ```{r}
 # Load libraries
