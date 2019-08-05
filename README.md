@@ -26,8 +26,6 @@ The advantage of using the **_getspres_** package is that it provides a quantita
 visual view of heterogeneity at individual genetic variants in meta-analyses.
 
 # []() <img src="image-spres-forestplots.png" align="right" />
-
-
 ---
 
 ### Installation
