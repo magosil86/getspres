@@ -26,6 +26,7 @@ The advantage of using the **_getspres_** package is that it provides a quantita
 visual view of heterogeneity at individual genetic variants in meta-analyses.
 
 # []() <img src="image-spres-forestplots.png" align="right" />
+
 ---
 
 ### Installation
@@ -72,11 +73,9 @@ to learn more about generating reproducible examples.
 
 ### References
 
-Lerato E Magosi, on behalf of the CARDIoGRAMplusC4D Consortium, Anuj Goel, on behalf of the 
-CARDIoGRAMplusC4D Consortium, Jemma C Hopewell, on behalf of the CARDIoGRAMplusC4D Consortium, 
-Martin Farrall, on behalf of the CARDIoGRAMplusC4D Consortium, Identifying small-effect genetic 
-associations overlooked by the conventional fixed-effect model in a large-scale meta-analysis 
-of coronary artery disease, Bioinformatics, , btz590, 
+Lerato E Magosi, Anuj Goel, Jemma C Hopewell, Martin Farrall, on behalf of the CARDIoGRAMplusC4D 
+Consortium, Identifying small-effect genetic associations overlooked by the conventional 
+fixed-effect model in a large-scale meta-analysis of coronary artery disease, Bioinformatics, , btz590, 
 https://doi-org.ezp-prod1.hul.harvard.edu/10.1093/bioinformatics/btz590
 
 Harbord, R. M., & Higgins, J. P. T. (2008). Meta-regression in Stata. Stata Journal 8: 493‚Äì519.
@@ -108,8 +107,8 @@ package version 0.1.0.9000. https://magosil86.github.io/getspres/
   
 ### Code of conduct
 
-Contributions are welcome. Please observe the [Contributor Code of Conduct]() when participating in this project.
+Contributions are welcome. Please observe the [Contributor Code of Conduct](https://github.com/magosil86/getspres/blob/master/CONDUCT.md) when participating in this project.
 
 ### License
 
-[MIT](https://opensource.org/licenses/mit-license.php) + file [License]().
+[MIT](https://opensource.org/licenses/mit-license.php) + file [License](https://github.com/magosil86/getspres/blob/master/LICENSE).
