@@ -28,7 +28,7 @@ visual view of heterogeneity at individual genetic variants in meta-analyses.
 # []() <img src="image-spres-forestplots.png" align="right" />
 
 
-
+---
 ### Installation
 
 ```{r}
