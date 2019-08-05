@@ -27,6 +27,8 @@ visual view of heterogeneity at individual genetic variants in meta-analyses.
 
 # []() <img src="image-spres-forestplots.png" align="right" />
 
+
+
 ### Installation
 
 ```{r}
@@ -52,7 +54,7 @@ library(getspres)  # for calculating SPRE statistics
 
 ### Usage
 
-Load the getspres package in your current R session, and try some examples in the [example workflow](https://github.com/magosil86/getspres/blob/master/vignettes/getspres-tutorial.Rmd)
+Load the getspres package in your current R session, and try some examples in the [example workflow](https://github.com/magosil86/getspres/blob/master/vignettes/getspres-tutorial.html)
 
 ```{r}
 # Load libraries
