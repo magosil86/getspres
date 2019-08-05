@@ -10,11 +10,20 @@
 ## _getspres_ : _SPRE_ Statistics for Exploring Heterogeneity in Meta-Analysis
 
 
-One useful way of identifying overly influential outlier studies in meta-analyses and their direction of effect is through the calculation of SPRE (standardised predicted random-effects) statistics. These precision-weighted residuals can be used in genetic association meta-analyses, for example, to point out outlier sutides showing outsized effects that are likely to inflate genetic signals (average genetic effect estimates) at variants of interest. 
+One useful way of identifying overly influential outlier studies in meta-analyses and 
+their direction of effect is through the calculation of SPRE (standardised predicted random-effects) 
+statistics. _SPRE_ statistics are precision-weighted residuals that capture the direction
+and extent to which genetic effects of different studies in a meta-analysis deviate from
+the average genetic effect at a variant of interest. Positive outliers have the potential 
+to inflate average genetic effects in meta-analysis whilst negative outliers 
+might lower or change the direction of effect.
 
-**_getspres_** facilitates calculation of _SPRE_ statistics in R and provides forest plots showing corresponding _SPRE_ statistic values for participating studies in meta-analyses. 
 
-The advantage of using the **_getspres_** package is that it provides a quantitative and visual view of heterogeneity at individual genetic variants in meta-analyses.
+**_getspres_** facilitates calculation of _SPRE_ statistics in R and provides forest plots 
+that show corresponding _SPRE_ statistic values for participating studies in meta-analyses. 
+
+The advantage of using the **_getspres_** package is that it provides a quantitative and 
+visual view of heterogeneity at individual genetic variants in meta-analyses.
 
 
 ### Installation
@@ -54,10 +63,19 @@ For an overview of available functions in **_getspres_**, type `?getspres` and `
 
 ### Getting help
 
-To suggest a new feature, report a bug or ask for help, please provide a reproducible example at: https://github.com/magosil86/getspres/issues. Also see [reprex](https://reprex.tidyverse.org/) to learn more about generating reproducible examples.
+To suggest a new feature, report a bug or ask for help, please provide a reproducible example 
+at: https://github.com/magosil86/getspres/issues. Also see [reprex](https://reprex.tidyverse.org/) 
+to learn more about generating reproducible examples.
 
 
 ### References
+
+Lerato E Magosi, on behalf of the CARDIoGRAMplusC4D Consortium, Anuj Goel, on behalf of the 
+CARDIoGRAMplusC4D Consortium, Jemma C Hopewell, on behalf of the CARDIoGRAMplusC4D Consortium, 
+Martin Farrall, on behalf of the CARDIoGRAMplusC4D Consortium, Identifying small-effect genetic 
+associations overlooked by the conventional fixed-effect model in a large-scale meta-analysis 
+of coronary artery disease, Bioinformatics, , btz590, 
+https://doi-org.ezp-prod1.hul.harvard.edu/10.1093/bioinformatics/btz590
 
 Harbord, R. M., & Higgins, J. P. T. (2008). Meta-regression in Stata. Stata Journal 8: 493‚Äì519.
 
