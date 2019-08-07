@@ -45,11 +45,17 @@ options(tibble.print_min = 4L, tibble.print_max = 4L)
   Another term commonly used when referring to _SPRE_ statistics is internally studentized residuals. 
   Detailed statistical theory on _SPRE_ statistics can obtained from the following references:
 
-  Harbord, R. M., & Higgins, J. P. T. (2008). Meta-regression in Stata. Stata Journal 8: 493‚Äì519.
+1.  Harbord, R. M., & Higgins, J. P. T. (2008). Meta-regression in Stata. Stata Journal 8: 493‚Äì519.
 
-  Magosi LE, Goel A, Hopewell JC, Farrall M, on behalf of the CARDIoGRAMplusC4D Consortium (2017) 
-  Identifying systematic heterogeneity patterns in genetic association meta-analysis studies. 
-  PLoS Genet 13(5): e1006755. https://doi.org/10.1371/journal.pgen.1006755.
+2.  Magosi LE, Goel A, Hopewell JC, Farrall M, on behalf of the CARDIoGRAMplusC4D Consortium (2017) 
+    Identifying systematic heterogeneity patterns in genetic association meta-analysis studies. 
+    PLoS Genet 13(5): e1006755. https://doi.org/10.1371/journal.pgen.1006755.
+
+3.  Lerato E Magosi, Anuj Goel, Jemma C Hopewell, Martin Farrall, on behalf of the CARDIoGRAMplusC4D 
+    Consortium, Identifying small-effect genetic associations overlooked by the conventional 
+    fixed-effect model in a large-scale meta-analysis of coronary artery disease, Bioinformatics, , btz590, 
+    https://doi-org.ezp-prod1.hul.harvard.edu/10.1093/bioinformatics/btz590
+
   
   
 ## The getspres R package: A two for one bargain in outlier diagnostics!

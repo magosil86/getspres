@@ -15,7 +15,7 @@ their direction of effect is through the calculation of _SPRE_ (standardised pre
 statistics. _SPRE_ statistics are precision-weighted residuals that capture the direction
 and extent to which genetic effects of different studies in a meta-analysis deviate from
 the average genetic effect at a variant of interest. Positive outliers have the potential 
-to inflate average genetic effects in meta-analysis whilst negative outliers 
+to inflate average genetic effects in a meta-analysis whilst negative outliers 
 might lower or change the direction of effect.
 
 
@@ -54,7 +54,7 @@ library(getspres)  # for calculating SPRE statistics
 
 ### Usage
 
-Load the getspres package in your current R session, and try some examples in the [example workflow](https://github.com/magosil86/getspres/blob/master/vignettes/getspres-tutorial.html)
+Load the getspres package in your current R session, and try some examples in the [example workflow](https://htmlpreview.github.io/?https://github.com/magosil86/getspres/blob/master/vignettes/getspres-tutorial.html)
 
 ```{r}
 # Load libraries
