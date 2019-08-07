@@ -25,7 +25,7 @@ that show corresponding _SPRE_ statistic values for participating studies in met
 The advantage of using the **_getspres_** package is that it provides a quantitative and 
 visual view of heterogeneity at individual genetic variants in meta-analyses.
 
-Zoom in on the web browser to get a better view of the images
+**Zoom in on the web browser to get a better view of the images**
 # []() <img src="image-spres-forestplots.png" align="right" />
 
 ---
