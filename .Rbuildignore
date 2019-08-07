@@ -1,0 +1,11 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.md$
+^image-spres-forestplots\.png$
+^_config.yml$
+^\.travis\.yml$
+^CONDUCT.md$
+^cran-comments.md$
+^_layouts$
+^assets$
+^NEWS\.md$
