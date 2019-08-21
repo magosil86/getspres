@@ -22,11 +22,30 @@ might lower or change the direction of effect.
 **_getspres_** facilitates calculation of _SPRE_ statistics in R and provides forest plots 
 that show corresponding _SPRE_ statistic values for participating studies in meta-analyses. 
 
-The advantage of using the **_getspres_** package is that it provides a quantitative and 
+An advantage of using the **_getspres_** package is that it provides a quantitative and 
 visual view of heterogeneity at individual genetic variants in meta-analyses.
 
 **Zoom in on the web browser to get a better view of the images**
 # []() <img src="image-spres-forestplots.png" align="right" />
+
+
+### How are spres calculated?
+
+Consider a GWAS meta-analysis (P), with S GWAS studies (s = 1,2,3,⋯,S) and 
+V independently associated variants (v = 1,2,3,⋯,V). Data for each variant are analyzed using a 
+random-effects model to estimate the average genetic effect and partition the variability 
+in study effect-sizes into random sampling and heterogeneity components. Then, the standardized 
+predicted random effect (SPRE) for the vth variant in the sth study is calculated as:
+
+# []() <img src="spre_eqn.png" align="right" />
+
+See the following references for more details:
+
+Harbord, R. M., & Higgins, J. P. T. (2008). Meta-regression in Stata. Stata Journal 8: 493‚Äì519.
+
+Magosi LE, Goel A, Hopewell JC, Farrall M, on behalf of the CARDIoGRAMplusC4D Consortium (2017) 
+Identifying systematic heterogeneity patterns in genetic association meta-analysis studies. 
+PLoS Genet 13(5): e1006755. https://doi.org/10.1371/journal.pgen.1006755.
 
 ---
 
