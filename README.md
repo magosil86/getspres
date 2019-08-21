@@ -26,7 +26,7 @@ An advantage of using the **_getspres_** package is that it provides a quantitat
 visual view of heterogeneity at individual genetic variants in meta-analyses.
 
 **Zoom in on the web browser to get a better view of the images**
-# []() <img src="image-spres-forestplots.png" align="right" />
+# []() <img src="image-spres-forestplots.png" align="right"  />
 
 
 ### How are spres calculated?
@@ -37,7 +37,8 @@ random-effects model to estimate the average genetic effect and partition the va
 in study effect-sizes into random sampling and heterogeneity components. Then, the standardized 
 predicted random effect (SPRE) for the vth variant in the sth study is calculated as:
 
-# []() <img src="spre_eqn.png" align="right" />
+
+# []() <img src="spre_eqn.png" align="centre" width="500" height="500"/><br>
 
 See the following references for more details:
 
