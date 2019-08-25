@@ -14,5 +14,7 @@ There was 1 NOTE:
 * checking CRAN incoming feasibility ... NOTE
 Maintainer: 'Lerato E Magosi <magosil86@gmail.com>'
 
+New submission
+
 ## Downstream dependencies
 There are currently no downstream dependencies for this package.
