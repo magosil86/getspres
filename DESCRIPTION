@@ -13,13 +13,13 @@ Authors@R: c(
     )
 Description: An implementation of SPRE (standardised predicted random-effects)
     statistics in R to explore heterogeneity in genetic association meta-
-    analyses. Outlier studies showing extreme effects in meta-analyses can
-    contribute to inflated genetic signals at variants of interest. SPRE
-    statistics can be used to identify overly influential studies in a meta-
-    analysis. SPRE statistics are precision weighted residuals that indicate
+    analyses. SPRE statistics are precision weighted residuals that indicate
     the direction and extent with which individual study-effects in a meta-
-    analysis deviate from the average genetic effect. See the getspres website
-    for documentation and examples.
+    analysis deviate from the average genetic effect. Overly influential
+    positive outliers have the potential to inflate average genetic effects 
+    in a meta-analysis whilst negative outliers might lower or change 
+    the direction of effect. See the getspres website for documentation 
+    and examples.
 Depends: 
     R (>= 3.1.0)
 License: MIT + file LICENSE
