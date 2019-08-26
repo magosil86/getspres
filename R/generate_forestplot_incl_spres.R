@@ -68,7 +68,7 @@ generate_spre_forestplot <- function(beta_in, se_in, study_names_in, variant_nam
                                      spres_in, spre_colour_palette = c("mono_colour", "black"), 
                                      set_studyNOs_as_studyIDs = FALSE, set_study_field_width = "%02.0f",
                                      set_cex = 0.66, set_xlim, set_ylim, set_at, tau2_method = "DL", 
-                                     adjust_labels = 1, save_plot = TRUE, 
+                                     adjust_labels = 1, save_plot = FALSE, 
                                      verbose_output = FALSE, ...) {
 
 

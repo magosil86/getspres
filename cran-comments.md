@@ -1,11 +1,10 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-Added to .Rbuildignore the following files:
-forestplot_fixed_effect_sortedby_betas_variant_name_rs10139550_snp_no_1.tif
-forestplot_fixed_effect_sortedby_betas_variant_name_rs10168194_snp_no_2.tif
-forestplot_fixed_effect_sortedby_betas_variant_name_rs11191416_snp_no_3.tif
-
+Changed the default value of the save_plot parameter in the 
+plotspres() function from save_plot = TRUE to save_plot = FALSE.
+ 
+ 
 ## Test environments
 * local OS X install, R 3.5.2
 * Ubuntu 16.04 (on travis-ci), R 3.6.1
