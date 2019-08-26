@@ -1,5 +1,10 @@
-## New submission
-This is my first submission.
+## Resubmission
+This is a resubmission. In this version I have:
+
+Added to .Rbuildignore the following files:
+forestplot_fixed_effect_sortedby_betas_variant_name_rs10139550_snp_no_1.tif
+forestplot_fixed_effect_sortedby_betas_variant_name_rs10168194_snp_no_2.tif
+forestplot_fixed_effect_sortedby_betas_variant_name_rs11191416_snp_no_3.tif
 
 ## Test environments
 * local OS X install, R 3.5.2
