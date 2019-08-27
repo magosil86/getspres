@@ -1,8 +1,8 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-Reduced the filesize of images in the vignettes.
- 
+* Added a reference for the methods implemented by the getspres package.
+* Added a url to the getspres package website.
  
 ## Test environments
 * local OS X install, R 3.5.2
