@@ -13,8 +13,9 @@ Authors@R: c(
     )
 Description: An implementation of SPRE (standardised predicted random-effects)
     statistics in R to explore heterogeneity in genetic association meta-
-    analyses, as described by Magosi et al. (2019) <doi:10.1093/bioinformatics
-    /btz590>. SPRE statistics are precision weighted residuals that indicate
+    analyses, as described by Magosi et al. (2019) 
+    <https://doi-org.ezp-prod1.hul.harvard.edu/10.1093/bioinformatics/btz590>. 
+    SPRE statistics are precision weighted residuals that indicate
     the direction and extent with which individual study-effects in a meta-
     analysis deviate from the average genetic effect. Overly influential
     positive outliers have the potential to inflate average genetic effects 
