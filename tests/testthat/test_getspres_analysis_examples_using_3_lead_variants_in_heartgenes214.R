@@ -74,7 +74,7 @@ test_that("correct SPRE statistics are calculated.", {
 			  set_studyNOs_as_studyIDs = TRUE,
 							  set_xlim = c(-8,8), set_ylim = c(-1.5,51),
 								set_at = c(-3.0, -2.5, -2.0, -1.5, -1.0, -0.5, 0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0),
-							 save_plot = TRUE)
+							 save_plot = FALSE)
 
 	### Note: Forest plot for "rs10139550" should resemble figure 5 in the manuscript draft referred to above.
 
