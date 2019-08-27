@@ -1,8 +1,7 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-Changed the default value of the save_plot parameter in the 
-plotspres() function from save_plot = TRUE to save_plot = FALSE.
+Reduced the filesize of images in the vignettes.
  
  
 ## Test environments
