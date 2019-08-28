@@ -1,8 +1,7 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Added a reference for the methods implemented by the getspres package.
-* Added a url to the getspres package website.
+* Updated the doi for the getspres package in the description.
  
 ## Test environments
 * local OS X install, R 3.5.2
