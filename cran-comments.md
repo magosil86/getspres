@@ -1,8 +1,8 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Updated the doi for the getspres package in the description.
- 
+* Enclosed the package name 'getspres' in quotes in the description.
+
 ## Test environments
 * local OS X install, R 3.5.2
 * Ubuntu 16.04 (on travis-ci), R 3.6.1

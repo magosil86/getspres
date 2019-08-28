@@ -260,6 +260,9 @@ generate_spre_forestplot <- function(beta_in, se_in, study_names_in, variant_nam
 		# --------------------------------------
 
 		# set margins
+		opar <- graphics::par(no.readonly =TRUE)
+		base::on.exit(graphics::par(opar))
+		 
 		op <- graphics::par(cex=set_cex, mar=c(4,4,1,2))
 	
 

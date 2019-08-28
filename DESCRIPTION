@@ -19,7 +19,7 @@ Description: An implementation of SPRE (standardised predicted random-effects)
     individual study-effects in a meta-analysis deviate from the average 
     genetic effect. Overly influential positive outliers have the potential 
     to inflate average genetic effects in a meta-analysis whilst negative 
-    outliers might lower or change the direction of effect. See the getspres 
+    outliers might lower or change the direction of effect. See the 'getspres' 
     website for documentation and examples 
     <https://magosil86.github.io/getspres/>.
 Depends: 
