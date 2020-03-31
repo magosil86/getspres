@@ -193,7 +193,7 @@
 #'              set_study_field_width = "%03.0f",
 #'                            set_cex = 0.75, set_xlim = c(-2,2), set_ylim = c(-1.5,51),
 #'                             set_at = c(-0.6, -0.4, -0.2,  0.0,  0.2,  0.4,  0.6),
-#'                        tau2_method = "REML", verbose_output = T,
+#'                        tau2_method = "REML", verbose_output = TRUE,
 #'                          save_plot = FALSE)
 #'
 #' # Adjust label (i.e. column header) position, also keep plot in graphics window rather
