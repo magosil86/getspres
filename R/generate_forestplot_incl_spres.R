@@ -148,12 +148,12 @@ generate_spre_forestplot <- function(beta_in, se_in, study_names_in, variant_nam
 
 		if (set_studyNOs_as_studyIDs) {
 			
-				metafor_res <- metafor::rma.uni(yi = dframe_current_snp[, "beta"], sei = dframe_current_snp[, "se"], weighted = T, slab = paste(formatC(dframe_current_snp[, "usta"], digits = 2, format = "f", flag = " "), sprintf(set_study_field_width, dframe_current_snp[, "study"]), sep = "    "), method = "FE")
+				metafor_res <- metafor::rma.uni(yi = dframe_current_snp[, "beta"], sei = dframe_current_snp[, "se"], weighted = TRUE, slab = paste(formatC(dframe_current_snp[, "usta"], digits = 2, format = "f", flag = " "), sprintf(set_study_field_width, dframe_current_snp[, "study"]), sep = "    "), method = "FE")
 			
 		
 		} else {
 		
-				metafor_res <- metafor::rma.uni(yi = dframe_current_snp[, "beta"], sei = dframe_current_snp[, "se"], weighted = T, slab = paste(formatC(dframe_current_snp[, "usta"], digits = 2, format = "f", flag = " "), dframe_current_snp[, "study_names"], sep = "    "), method = "FE")
+				metafor_res <- metafor::rma.uni(yi = dframe_current_snp[, "beta"], sei = dframe_current_snp[, "se"], weighted = TRUE, slab = paste(formatC(dframe_current_snp[, "usta"], digits = 2, format = "f", flag = " "), dframe_current_snp[, "study_names"], sep = "    "), method = "FE")
 			
 		
 		}
@@ -190,11 +190,11 @@ generate_spre_forestplot <- function(beta_in, se_in, study_names_in, variant_nam
         
         if (tau2_method == "DL") {
 
-			metafor_res <- metafor::rma.uni(yi = dframe_current_snp[, "beta"], sei = dframe_current_snp[, "se"], weighted = T, knha = T, slab = sprintf("%02.0f", dframe_current_snp[, "study"]), method = tau2_method)        
+			metafor_res <- metafor::rma.uni(yi = dframe_current_snp[, "beta"], sei = dframe_current_snp[, "se"], weighted = TRUE, knha = TRUE, slab = sprintf("%02.0f", dframe_current_snp[, "study"]), method = tau2_method)        
         } 
         else {
         
-			metafor_res <- metafor::rma.uni(yi = dframe_current_snp[, "beta"], sei = dframe_current_snp[, "se"], weighted = T, knha = T, slab = sprintf("%02.0f", dframe_current_snp[, "study"]), method = tau2_method, control=list(stepadj=0.5, maxiter=10000))        
+			metafor_res <- metafor::rma.uni(yi = dframe_current_snp[, "beta"], sei = dframe_current_snp[, "se"], weighted = TRUE, knha = TRUE, slab = sprintf("%02.0f", dframe_current_snp[, "study"]), method = tau2_method, control=list(stepadj=0.5, maxiter=10000))        
         }
         
 
@@ -270,7 +270,7 @@ generate_spre_forestplot <- function(beta_in, se_in, study_names_in, variant_nam
 		forestplot_name_oulier_present <- base::paste0("forestplot_fixed_effect_sortedby_betas_variant_name_", (metafor_results_fe[[item_no]])$current_snp_name, "_snp_no_", (metafor_results_fe[[item_no]])$current_snp_no, ".tif")
 		if (save_plot) { grDevices::tiff(forestplot_name_oulier_present, width = 17.35, height = 23.35, units = "cm", res = 600, compression = "lzw", pointsize = 14) }
 
-		metafor::forest(metafor_results_fe[[item_no]]$metafor_results_outlier_present, xlim=set_xlim, at=set_at, cex=0.64, xlab = "log odds ratios", addfit=T, mlab = "Summary effect")
+		metafor::forest(metafor_results_fe[[item_no]]$metafor_results_outlier_present, xlim=set_xlim, at=set_at, cex=0.64, xlab = "log odds ratios", addfit=TRUE, mlab = "Summary effect")
 
 		# Adding labels		
 		graphics::text(set_xlim[2], set_ylim[2] - adjust_labels, "Effect-size [95% CI]", pos=2, cex=set_cex)

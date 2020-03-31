@@ -3,6 +3,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/magosil86/getspres/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/magosil86/getspres.svg)](https://github.com/magosil86/getspres/issues)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/getspres)](https://cran.r-project.org/package=getspres)
+[![Coverage status](https://codecov.io/gh/magosil86/getspres/branch/master/graph/badge.svg)](https://codecov.io/github/magosil86/getspres?branch=master)
 [![CRAN_Logs_Rstudio](https://cranlogs.r-pkg.org/badges/grand-total/getspres)](http://cran.rstudio.com/web/packages/getspres/index.html) 
 <!-- []() <img src="https://user-images.githubusercontent.com/8364031/46570331-0c8f0180-c952-11e8-923d-536448190113.gif" align="right" /> -->
 
