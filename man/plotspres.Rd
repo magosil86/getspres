@@ -10,12 +10,25 @@
 \usage{
 plotspres(beta_in, se_in, study_names_in, variant_names_in, spres_in, ...)
 
-\method{plotspres}{default}(beta_in, se_in, study_names_in,
-  variant_names_in, spres_in, spre_colour_palette = c("mono_colour",
-  "black"), set_studyNOs_as_studyIDs = FALSE,
-  set_study_field_width = "\%02.0f", set_cex = 0.66, set_xlim,
-  set_ylim, set_at, tau2_method = "DL", adjust_labels = 1,
-  save_plot = TRUE, verbose_output = FALSE, ...)
+\method{plotspres}{default}(
+  beta_in,
+  se_in,
+  study_names_in,
+  variant_names_in,
+  spres_in,
+  spre_colour_palette = c("mono_colour", "black"),
+  set_studyNOs_as_studyIDs = FALSE,
+  set_study_field_width = "\%02.0f",
+  set_cex = 0.66,
+  set_xlim,
+  set_ylim,
+  set_at,
+  tau2_method = "DL",
+  adjust_labels = 1,
+  save_plot = TRUE,
+  verbose_output = FALSE,
+  ...
+)
 }
 \arguments{
 \item{beta_in}{A numeric vector of observed study effects e.g. log odds-ratios.}

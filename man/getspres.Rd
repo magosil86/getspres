@@ -10,8 +10,15 @@
 \usage{
 getspres(beta_in, se_in, study_names_in, variant_names_in, ...)
 
-\method{getspres}{default}(beta_in, se_in, study_names_in,
-  variant_names_in, tau2_method = "DL", verbose_output = FALSE, ...)
+\method{getspres}{default}(
+  beta_in,
+  se_in,
+  study_names_in,
+  variant_names_in,
+  tau2_method = "DL",
+  verbose_output = FALSE,
+  ...
+)
 }
 \arguments{
 \item{beta_in}{A numeric vector of study effect-sizes e.g. log odds-ratios.}
@@ -75,7 +82,7 @@ website for more information, documentation and examples.
 corresponding standard errors (i.e. summary data). Study effect estimates 
 could be in the form of linear regression coefficients or log-transformed
 regression coefficients (per-allele log odds ratios) from logistic 
-regression.
+regression. 
 
 \code{getspres} uses inverse-variance weighted meta-analysis models in the
 \code{metafor} R package to calculate \emph{SPRE} statistics.
